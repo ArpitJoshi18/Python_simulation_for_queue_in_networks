@@ -39,6 +39,6 @@ This python scipt gives out plot of avergage queue length vs theoretical queue l
 
 
 For more details : https://www.win.tue.nl/~iadan/queueing.pdf
-
+For more details on queuing thoery : https://github.com/ArpitJoshi18/Python_simulation_for_queues_in_networks/blob/master/Queueing%20Theory.pdf
 
 
