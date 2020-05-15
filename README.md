@@ -1,4 +1,4 @@
-# Python_simulation_for_queue_in_networks
+# Python_simulation_for_queues_in_networks
 This repository explain python simulation for any queue with arrival-service rates as geometric distribution/general distribution. Python script was developed to carry out empirical occupancy rates and average queue length over 100 million Markov states. 
 
 
@@ -31,9 +31,8 @@ This python scipt gives out plot of avergage queue length vs theoretical queue l
 
 •	Occupancy Rate: Occupancy rate is ratio of state being occupied to the total number of states. This could be an important factor in understanding queuing schemes. For this project, occupancy rate is calculated for each case to get better idea of how queuing system works with different arrival-service rates. Empirical occupancy and theoretical occupancy rates were carried out in python 3.0. 
 •	Empirical occupancy rate: This is the occupancy rate calculated using python script. 
-•	Theoretical occupancy rate:  Although it is an infinite geometric series but what makes it different than other series is the constant input rates. Mathematically, it is feasible to find stationary distributions using steady-state difference equation. Although it requires a system to have a ‘rho’ to be less than 1. With that condition satisfied, stationary distributions can be found using an equation below.  Variable ‘n’ in the equation denotes particular state. 
+•	Theoretical occupancy rate:  Although it is an infinite geometric series but what makes it different than other series is the constant input rates. Mathematically, it is feasible to find stationary distributions using steady-state difference equation.
  
-With the help of above mentioned equation, theoretical occupancy rates can be calculated for geometric distribution over 100 million time-slots in python. 
 
 
 
