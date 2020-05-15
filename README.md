@@ -4,7 +4,8 @@ This repository explain python simulation for any queue with arrival-service rat
 
 # Part 1 
 
-This part deals with a discrete M/M/1 queue with arrival and service rate as geometric distributions. This queue is known as Geo/Geo/1 queue. Selecting this queue gives some advantages to user to compute several important deciding factors regarding the queuing model. Several factors like average queue length, average time spent in the system, average waiting time for each packets and similar. First This part of the problem deals with occupancy rate of such queuing systems. To see different cases of the same project, three arrival-service distribution were picked to see results under high and low arrival rates. This project also compares stationary distribution of the queuing systems with computed results. This helps determining the significance of the stationary distribution for such queue under different configurations. 
+This part deals with a discrete M/M/1 queue with arrival and service rate as geometric distributions. This queue is known as Geo/Geo/1 queue. Selecting this queue gives some advantages to user to compute several important deciding factors regarding the queuing model. Several factors like average queue length, average time spent in the system, average waiting time for each packets and similar. This part of the problem deals with occupancy rate of such queuing systems. This project also compares stationary distribution of the queuing systems with computed results. This helps determining the significance of the stationary distribution for such queue under different configurations. 
+
 Environment for the project: 
 •	Queue: Geo/Geo/1 queue was simulated on python to understand queuing statistics. 
 •	Service rate: For Geo/Geo/1 queue simulation, service rate was kept at 0.5 with different arrival rates. 
