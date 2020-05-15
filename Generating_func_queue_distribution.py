@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 run_time = 10000000
-max_a = 44
-max_s = 100
+max_a = 44                      # arrival 
+max_s = 100                     # service/departure 
 avg_a = (max_a-1)/2
 avg_s = (max_s-1)/2
 a_squared = (max_a-1)*(2*(max_a-1)+1)/6
