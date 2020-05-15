@@ -50,8 +50,11 @@ Two different arrival distributions with one service distribution were set with 
 
 Service rate: p (s (k) = n) = 1 / 101 for n=0, 1, 2 … 100 
 	    & p (s (k) = n) = 0 for n=100 or higher 
+	    
 Arrival rate 1:  p (a (k) = n) = 1 / 45 for n = 0, 1, 2 … 44
+
 Arrival rate 2: p (a (k) = n) = 1 / 99 for n = 0, 1, 2 … 99
+
 
 
 
