@@ -15,7 +15,7 @@ Environment for the project:
 •	Numbers of servers: In this project simulation, number of server is one. (Geo/Geo/1)
 •	Iterations: Since this project deals with discrete time queuing schemes, each process was calculated for 100 million time-slots. (100 million Markov states) 
 •	An important condition for any queuing model to be stable is to have more service rate than inter-arrival rate. Therefore for any system to be stable, ‘inter-arrival rate < service rate’ condition is necessary. 
-
+------------------------------------------------------------------------------------------------------------------------------------
 # Queue_length.py 
 
 This python scipt gives out plot of avergage queue length vs theoretical queue length. 
@@ -23,7 +23,7 @@ This python scipt gives out plot of avergage queue length vs theoretical queue l
 •	Average of the queue length: This is an important factor while designing any queuing model. Using arrival-service rate distribution, average of the queue length can be found. This helps in designing the buffer sizes for the queue as it gives the results of average queue length. 
 •	Empirical average of the queue length: This is the term used to show the computed average of the queue length using the python code. 
 •	Theoretical average of the queue length: After determining ‘rho’ from any arrival-service distribution, average queue length of any systems can be found using the expectation theorem since it is using Geometric distribution. 
- 
+ ------------------------------------------------------------------------------------------------------------------------------------
  
  # Occupancy_rate.py 
  
@@ -32,9 +32,19 @@ This python scipt gives out plot of avergage queue length vs theoretical queue l
 •	Occupancy Rate: Occupancy rate is ratio of state being occupied to the total number of states. This could be an important factor in understanding queuing schemes. For this project, occupancy rate is calculated for each case to get better idea of how queuing system works with different arrival-service rates. Empirical occupancy and theoretical occupancy rates were carried out in python 3.0. 
 •	Empirical occupancy rate: This is the occupancy rate calculated using python script. 
 •	Theoretical occupancy rate:  Although it is an infinite geometric series but what makes it different than other series is the constant input rates. Mathematically, it is feasible to find stationary distributions using steady-state difference equation.
+ --------------------------------------------------------------------------------------------------------------------------------
+ # Generating_func_queue_distribution.py 
  
+For the other projects mentioined above, geometric distributions were used to carry out results. Using geometric distribution for arrival-service rate gives us advantage to confirm programmed and theoretical results. Although in many practical cases, arrival-service distributions are way more random compared to usual random variables such as geometric distributions. Similarly, in this part, arrival-service rate were set with different generating functions. These generating functions were used to carry out average of the queue length. This project also shows the upper bound on the same plot. 
 
+Two different arrival distributions with one service distribution were set with generating functions. 
 
+Service rate: p (s (k) = n) = 1 / 101 for n=0, 1, 2 … 100 
+	    & p (s (k) = n) = 0 for n=100 or higher 
+Arrival rate 1:  p (a (k) = n) = 1 / 45 for n = 0, 1, 2 … 44
+Arrival rate 2: p (a (k) = n) = 1 / 99 for n = 0, 1, 2 … 99
+
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 
